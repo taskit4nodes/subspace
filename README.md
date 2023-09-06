@@ -1,9 +1,23 @@
-# subspace -> gemini 1 closed
+# Subspace
+
+## Must have
+1. Wallet address
+2. Space for farmer: 70-100 GB
 
 ## Installing
 
-1. Run the script
+```sh
+. <(wget -qO- https://raw.githubusercontent.com/taskit4nodes/subspace/main/install.sh)
+```
+
+## Check status
+
+```
+service subspaced status
+```
+
+## Uninstalling
 
 ```sh
-. <(wget -qO- sh.f5nodes.com) subspace
+. <(wget -qO- https://raw.githubusercontent.com/taskit4nodes/subspace/main/uninstall.sh)
 ```
